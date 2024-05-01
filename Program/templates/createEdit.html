@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>CRUD</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="templates/assets/css/bootstrap.min.css">
+  <script src="templates/assets/js/jquery.min.js"></script>
+  <script src="templates/assets/js/popper.min.js"></script>
+  <script src="templates/assets/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.php">Title</a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.php">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="posts.php">Posts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">?</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+ <div class="col-lg-6 m-auto">
+ 
+ <form method="post">
+ 
+ <br><br><div class="card">
+ 
+ <div class="card-header bg-primary">
+ <h1 class="text-white text-center">  Create New DATA_TABLE_NAME </h1>
+ </div><br>
+<form action="DATA_FORM_ACTION" method="POST">
+  DATA_INPUT_FIELD
+ 
+  <button class="btn btn-success" type="submit" name="DATA_BUTTON_TYPE"> Submit </button><br>
+  <a class="btn btn-info" type="submit" name="cancel" href="index.php"> Cancel </a><br>
+</form>
+
+ </div>
+ </form>
+ </div>
+</body>
+</html>
