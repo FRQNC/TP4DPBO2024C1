@@ -53,7 +53,7 @@ class PostsController
         $this->members->open();
         $this->members->getMembers();
         $data = array(
-            'posts' => null,
+            'posts' => array(),
             'members' => array()
         );
         while ($row = $this->members->getResult()) {
